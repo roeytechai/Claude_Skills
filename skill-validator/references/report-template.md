@@ -34,7 +34,7 @@ Bullet list of the best-practice findings this audit is anchored to, each with s
 | Resource architecture | ... | | | |
 | Ecosystem fit | ... | | | |
 
-## Before / after demo
+## Before / after
 **Sample task:** "<realistic user prompt this skill handles>"
 
 **Current skill would produce:**
@@ -57,5 +57,5 @@ Bullet list of the best-practice findings this audit is anchored to, each with s
 Notes:
 - Security findings (injection, hidden commands, exfiltration) always appear first in the flaw list, regardless of ordering by severity elsewhere, with an explicit "do not install/run until cleaned" line in the Verdict.
 - If nothing rises above Minor: keep the Verdict positive, list the minor items, and let the fix menu read "nothing required — optional polish only".
-- The before/after demo must be derived honestly: the "before" is what the current instructions actually yield, not a caricature.
-- If auditing the whole ecosystem, replace "Flaws" with per-skill top flaws and add a "Cross-skill findings" section (collisions, pipeline breaks, missing skills), but keep the comparison table, demo (pick the weakest skill), and fix menu.
+- The before/after  must be derived honestly: the "before" is what the current instructions actually yield, not a caricature.
+- If auditing the whole ecosystem, replace "Flaws" with per-skill top flaws and add a "Cross-skill findings" section (collisions, pipeline breaks, missing skills), but keep the comparison table, (pick the weakest skill), and fix menu.
