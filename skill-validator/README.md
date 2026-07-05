@@ -6,7 +6,7 @@ Point it at a skill (or your whole skill collection, or a multi-agent team) and 
 
 ## Install
 
-Download [`skill-validator.skill`](./skill-validator.skill) and open it in the Claude desktop app (Cowork) — click **Save skill**. Or copy the [`skill-validator/`](./skill-validator) folder into `~/.claude/skills/` for Claude Code.
+Download [`skill-validator.skill`](./skill-validator.skill) and open it in the Claude desktop app (Cowork) — click **Save skill**. Or copy this folder (SKILL.md + references/ + assets/) into `~/.claude/skills/skill-validator/` for Claude Code.
 
 ## Use
 
@@ -25,7 +25,7 @@ Every audit report contains a **flaw list** (IDs, severities, evidence, concrete
 
 ## Rubric
 
-Depth of domain knowledge · Workflow completeness · Output format specificity · Trigger quality · Currency · Resource architecture · Ecosystem fit — each scored 1–5 with anchored definitions (see [`references/audit-rubric.md`](./skill-validator/references/audit-rubric.md)).
+Depth of domain knowledge · Workflow completeness · Output format specificity · Trigger quality · Currency · Resource architecture · Ecosystem fit — each scored 1–5 with anchored definitions (see [`references/audit-rubric.md`](./references/audit-rubric.md)).
 
 ## Modes
 
